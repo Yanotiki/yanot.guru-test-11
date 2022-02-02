@@ -35,7 +35,7 @@ public class HomeWorkParameterized {
                 Arguments.of("Metallica", "Metallica была основана в Лос-Анджелесе 28 октября 1981 года"),
                 Arguments.of("Джеймс Хетфилд", "вокалист и ритм-гитарист метал-группы Metallica"),
                 Arguments.of("Богемская", "песня британской рок-группы Queen из альбома A Night at the Opera"),
-                Arguments.of("Фредди Меркьюри", "британский певец")
+                Arguments.of("Фредди", "британский певец")
         );
     }
 
