@@ -50,7 +50,7 @@ public class HomeWorkParameterized {
 
     @Disabled
     @CsvSource(value = {"Металлика, Metallica была основана в Лос-Анджелесе 28 октября 1981 года",
-            "Джеймс Хетфилд, вокалист и ритм-гитарист метал-группы Metallica"})
+            "Джеймс Хетфилд, вокалист и ритм-гитарист метал-группы Metallica", "Богемская рапсодия, песня британской рок-группы Queen из альбома A Night at the Opera"})
     @ParameterizedTest(name = "Тестирование с тестданными: {0}")
     void searchCsvSource(String testData, String expectedResult) {
         $("#mw-head").$("#p-search").click();
